@@ -205,6 +205,11 @@ body {
     border-radius: 16px;
     border: 1px solid #353535;
 
+    &:hover {
+        .products-item-image {
+            transform: scale(1.1);
+        }
+    }
 }
 
 .products-item-image {
