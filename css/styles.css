@@ -16,6 +16,7 @@
 body {
     background-color: #191411;
     font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
     color: white;
 }
 
@@ -41,7 +42,7 @@ body {
     border: 0;
     cursor: pointer;
     outline: none;
-    font-size: 18px;
+    /*font-size: 18px;*/
     color: #191411;
 }
 
@@ -88,7 +89,7 @@ body {
 
 .menu-item a {
     color: #FFF;
-    font-size: 18px;
+    /*font-size: 18px;*/
     text-decoration: none;
     cursor: pointer;
 }
@@ -130,14 +131,14 @@ body {
     background: #D3320F;
     padding: 12px 16px;
     display: inline-block;
-    font-size: 18px;
+    /*font-size: 18px;*/
 }
 
 .main-title {
     font-family: 'Merriweather', sans-serif;
     font-size: 120px;
     line-height: 130%; /* 156px */
-    letter-spacing: 3.6px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     margin-bottom: 56px;
 }
