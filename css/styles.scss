@@ -76,26 +76,25 @@ body {
 
 .menu {
     margin-left: 191px;
-}
 
-.menu-list {
-    list-style: none;
-    display: flex;
-}
+    .menu-list {
+        list-style: none;
+        display: flex;
 
-.menu-item {
-    margin-right: 88px;
-}
+        .menu-item {
+            margin-right: 88px;
 
-.menu-item a {
-    color: #FFF;
-    /*font-size: 18px;*/
-    text-decoration: none;
-    cursor: pointer;
-}
+            a {
+                color: #FFF;
+                text-decoration: none;
+                cursor: pointer;
 
-.menu-item a:hover {
-    border-bottom: 2px solid white;
+                &:hover {
+                    border-bottom: 2px solid white;
+                }
+            }
+        }
+    }
 }
 
 .currency {
@@ -131,7 +130,6 @@ body {
     background: #D3320F;
     padding: 12px 16px;
     display: inline-block;
-    /*font-size: 18px;*/
 }
 
 .main-title {
@@ -207,7 +205,7 @@ body {
 
     &:hover {
         .products-item-image {
-            transform: scale(1.1);
+            transform: scale(1.2);
         }
     }
 }
