@@ -76,25 +76,27 @@ body {
 
 .menu {
     margin-left: 191px;
+}
 
-    .menu-list {
-        list-style: none;
-        display: flex;
+.menu-list {
+    list-style: none;
+    display: flex;
+}
 
-        .menu-item {
-            margin-right: 88px;
+.menu-item {
+    margin-right: 88px;
 
-            a {
-                color: #FFF;
-                text-decoration: none;
-                cursor: pointer;
 
-                &:hover {
-                    border-bottom: 2px solid white;
-                }
-            }
-        }
-    }
+}
+
+.menu-item a {
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid white;
 }
 
 .currency {
@@ -202,12 +204,10 @@ body {
     background: #211A16;
     border-radius: 16px;
     border: 1px solid #353535;
+}
 
-    &:hover {
-        .products-item-image {
-            transform: scale(1.2);
-        }
-    }
+.products-item:hover .products-item-image {
+        transform: scale(1.2);
 }
 
 .products-item-image {
